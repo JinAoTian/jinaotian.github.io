@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>如叶随风</title>
+  
+  <subtitle>a leaf gone with the wind</subtitle>
+  <link href="https://jinaotian.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://jinaotian.github.io/"/>
+  <updated>2022-09-05T02:14:20.004Z</updated>
+  <id>https://jinaotian.github.io/</id>
+  
+  <author>
+    <name>金扬植</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://jinaotian.github.io/2022/09/05/hello-world/"/>
+    <id>https://jinaotian.github.io/2022/09/05/hello-world/</id>
+    <published>2022-09-05T02:14:20.004Z</published>
+    <updated>2022-09-05T02:14:20.004Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
