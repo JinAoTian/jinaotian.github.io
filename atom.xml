@@ -6,7 +6,7 @@
   <link href="https://jinaotian.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinaotian.github.io/"/>
-  <updated>2022-09-05T02:14:20.004Z</updated>
+  <updated>2022-09-06T15:02:45.166Z</updated>
   <id>https://jinaotian.github.io/</id>
   
   <author>
@@ -17,23 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://jinaotian.github.io/2022/09/05/hello-world/"/>
-    <id>https://jinaotian.github.io/2022/09/05/hello-world/</id>
-    <published>2022-09-05T02:14:20.004Z</published>
-    <updated>2022-09-05T02:14:20.004Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
+    <title>博客大事记</title>
+    <link href="https://jinaotian.github.io/2022/09/06/bo-ke-da-shi-ji/"/>
+    <id>https://jinaotian.github.io/2022/09/06/bo-ke-da-shi-ji/</id>
+    <published>2022-09-06T12:46:10.000Z</published>
+    <updated>2022-09-06T15:02:45.166Z</updated>
     
     
     
+    
+    <category term="日志" scheme="https://jinaotian.github.io/categories/%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="大事记" scheme="https://jinaotian.github.io/tags/%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
+    
+    <category term="博客" scheme="https://jinaotian.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
