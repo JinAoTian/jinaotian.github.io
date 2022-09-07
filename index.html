@@ -428,24 +428,6 @@
 </div>
 
 
-<script>
-    //这里修改了banner图的生成逻辑为，每次刷新都会重新生成一张banner图片
-    if(2 != 2 ){var chance=  2 ;}else{var chance =  7 / (7  + 3 );}
-    var chose = Math.random();
-    if(parseFloat(chose) < parseFloat(chance)){
-        var type = ".jpg)";
-        var ImgNumber = Math.floor(Math.random()* 7);
-    }else{
-        var type = ".png)";
-        var  ImgNumber = Math.floor(Math.random()*3 );
-    }
-    bannerUrl = '/imageDark/';
-    console.log(ImgNumber);
-    $('.bg-cover').css('background-image', 'url('+bannerUrl +ImgNumber + type );
-</script>
-
-
-
     <script>
     //这里修改了banner图的生成逻辑为，每次刷新都会重新生成一张banner图片
     if(1 != 2 ){var chance=  1 ;}else{var chance =  3 / (3  + 0 );}
@@ -460,6 +442,25 @@
         backgroundUrl = '/imageLight/';
         document.getElementsByTagName("body")[0].style.backgroundImage = 'url('+backgroundUrl +ImgNumber + type;
     </script>
+
+
+
+<script>
+    //这里修改了banner图的生成逻辑为，每次刷新都会重新生成一张banner图片
+    if(2 != 2 ){var chance=  2 ;}else{var chance =  10 / (10  + 0 );}
+    var chose = Math.random();
+    if(parseFloat(chose) < parseFloat(chance)){
+        var type = ".jpg)";
+        var ImgNumber = Math.floor(Math.random()* 10);
+    }else{
+        var type = ".png)";
+        var  ImgNumber = Math.floor(Math.random()*0 );
+    }
+    bannerUrl = '/imageDark/';
+    console.log(ImgNumber);
+    $('.bg-cover').css('background-image', 'url('+bannerUrl +ImgNumber + type );
+</script>
+
 
 
 
