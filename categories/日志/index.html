@@ -22,9 +22,11 @@
     
     <style>
         body{
-            background-image: url(https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg);
+             /* background-image: url(/imageLight/);  */
+             /* 背景图片的修改已经移到bg-content中修改 */
             background-repeat:no-repeat;
-            background-size: 100% 100%;
+            background-size: 100%,auto;
+            background-position: bottom;
             background-attachment:fixed;
         }
     </style>
@@ -377,17 +379,39 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var chose = Math.random()*2;
-    if(parseFloat(chose) < parseFloat("1.5")){
-        var type = ".jpg)";//jpg 目前有0~6张
-        var ImgNumber = Math.floor(Math.random()*7);
+    //这里修改了banner图的生成逻辑为，每次刷新都会重新生成一张banner图片
+    if(2 != 2 ){var chance=  2 ;}else{var chance =  7 / (7  + 3 );}
+    var chose = Math.random();
+    if(parseFloat(chose) < parseFloat(chance)){
+        var type = ".jpg)";
+        var ImgNumber = Math.floor(Math.random()* 7);
     }else{
-        var type = ".png)";//jpg 目前有0~1张
-        var  ImgNumber = Math.floor(Math.random()*2);
+        var type = ".png)";
+        var  ImgNumber = Math.floor(Math.random()*3 );
     }
-    $('.bg-cover').css('background-image', 'url(/medias/banner/' + ImgNumber + type);
+    bannerUrl = '/imageDark/';
+    console.log(ImgNumber);
+    $('.bg-cover').css('background-image', 'url('+bannerUrl +ImgNumber + type );
 </script>
+
+
+
+    <script>
+    //这里修改了banner图的生成逻辑为，每次刷新都会重新生成一张banner图片
+    if(1 != 2 ){var chance=  1 ;}else{var chance =  3 / (3  + 0 );}
+            var chose = Math.random();
+        if(parseFloat(chose) < parseFloat(chance)){
+            var type = ".jpg)";
+            var ImgNumber = Math.floor(Math.random()* 3);
+        }else{
+            var type = ".png)";
+            var  ImgNumber = Math.floor(Math.random()*0 );
+         }
+        backgroundUrl = '/imageLight/';
+        document.getElementsByTagName("body")[0].style.backgroundImage = 'url('+backgroundUrl +ImgNumber + type;
+    </script>
+
+
 
 
     </div>
@@ -432,7 +456,8 @@
                     <a href="/2022/09/06/bo-ke-da-shi-ji/">
                         <div class="card-image tag-image">
                             
-                            <img src="/source/images/1.jpg" class="responsive-img" alt="博客大事记">
+                            
+                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="博客大事记">
                             
                             <span class="card-title">博客大事记</span>
                         </div>
