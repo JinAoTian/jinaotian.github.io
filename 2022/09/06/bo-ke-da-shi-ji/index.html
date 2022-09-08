@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="博客大事记, 如叶随风">
-    <meta name="description" content="这是我博客的大事记拉~">
+    <meta name="description" content="我的博客大事记">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -382,8 +382,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%97%A5%E5%BF%97/" class="post-category">
-                                日志
+                            <a href="/categories/%E8%AE%B0%E5%BD%95/" class="post-category">
+                                记录
                             </a>
                         
                     </div>
@@ -402,14 +402,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-09-07
+                    2022-09-08
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    218
                 </div>
                 
 
@@ -434,7 +434,23 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h2 id="2022"><a href="#2022" class="headerlink" title="2022"></a>2022</h2><h3 id="9月"><a href="#9月" class="headerlink" title="9月"></a>9月</h3><h4 id="9-5"><a href="#9-5" class="headerlink" title="9.5"></a>9.5</h4><p>hexo+blinkfox主题 调试上线</p>
+<p>去除背景图的动态遮罩</p>
+<h4 id="9-6"><a href="#9-6" class="headerlink" title="9.6"></a>9.6</h4><p>个人基本信息基本填充完毕</p>
+<p>修改了背景图片的显示逻辑</p>
+<p>将banner图片作为选取为随机刷新</p>
+<p>添加了看板娘(我永远喜欢z16!)</p>
+<h4 id="9-7"><a href="#9-7" class="headerlink" title="9.7"></a>9.7</h4><p>背景图片更新</p>
+<p>优化和封装了背景和banner的随机选取代码(最后还是感觉太嘈杂了，去掉了背景图片)</p>
+<p>背景改用动态彩带</p>
+<p>添加鼠标的星星效果(这个本来打算改的，其他项目赶时间，先放)</p>
+<h4 id="9-8"><a href="#9-8" class="headerlink" title="9.8"></a>9.8</h4><p>添加valine</p>
+<p>优化部分显示</p>
+<p>修改subtitle显示（以后可以试着改成一言API，现在吗…懒）</p>
+<p>第一个友链</p>
+<p>更改的音乐功能的参数(暂未上线)</p>
+<p>打算先放一放，等以后需求迫切了再来魔改</p>
+<h4 id="未完待续…"><a href="#未完待续…" class="headerlink" title="未完待续…"></a>未完待续…</h4>
                 
             </div>
             <hr/>
@@ -866,7 +882,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这是我博客的大事记拉~
+                            我的博客大事记
                         
                     </div>
                     <div class="publish-info">
@@ -877,8 +893,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%97%A5%E5%BF%97/" class="post-category">
-                                    日志
+                            <a href="/categories/%E8%AE%B0%E5%BD%95/" class="post-category">
+                                    记录
                                 </a>
                             
                             
@@ -920,7 +936,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这是我博客的大事记拉~
+                            我的博客大事记
                         
                     </div>
                     <div class="publish-info">
@@ -931,8 +947,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%97%A5%E5%BF%97/" class="post-category">
-                                    日志
+                            <a href="/categories/%E8%AE%B0%E5%BD%95/" class="post-category">
+                                    记录
                                 </a>
                             
                             
@@ -1079,11 +1095,11 @@
     
 
     <div class="container row center-align"
-         style="margin-bottom: 0px !important;">
+         style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2022</span>
+                <span id="year">2022</span>
             
             <a href="/about" target="_blank">金扬植</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -1091,7 +1107,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">0</span>
+                        class="white-color">218</span>
             
             
             
@@ -1112,6 +1128,60 @@
             <br>
 
             <!-- 运行天数提醒. -->
+            
+                <span id="sitetime"> Loading ...</span>
+                <script>
+                    var calcSiteTime = function () {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = "2022";
+                        var startMonth = "9";
+                        var startDate = "5";
+                        var startHour = "0";
+                        var startMinute = "0";
+                        var startSecond = "0";
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth() + 1;
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+
+                        // 区分是否有年份.
+                        var language = 'zh-CN';
+                        if (startYear === String(todayYear)) {
+                            document.getElementById("year").innerHTML = todayYear;
+                            var daysTip = 'This site has been running for ' + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                daysTip = '本站已运行 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                daysTip = '本站已運行 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = daysTip;
+                        } else {
+                            document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                            var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and '
+                                + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
+                        }
+                    }
+
+                    calcSiteTime();
+                </script>
             
             <br>
             
