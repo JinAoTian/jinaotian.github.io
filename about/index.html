@@ -20,17 +20,6 @@
     <title>关于 | 如叶随风</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
-    <style>
-        body{
-             /* background-image: url(/imageLight/);  */
-             /* 背景图片的修改已经移到bg-content中修改 */
-            background-repeat:no-repeat;
-            background-size: 100%,auto;
-            background-position: bottom;
-            background-attachment:fixed;
-        }
-    </style>
-
 
 
     <!-- bg-cover style     -->
@@ -358,7 +347,7 @@
         <div class="brand">
             <div class="title center-align homeTitle">
                 
-                浮生若梦,为欢几何?
+                如叶随风
                 
             </div>
 
@@ -368,14 +357,24 @@
                 <script src="/libs/typed/typed.js"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: [ "管他繁华或是荒凉，都要寻一场",
-                            "浮生朝暮闲庭信步地浪荡",
+                        strings: [ 
+                        
+                                "浮生若梦，为欢几何？",
+                            
+                                "凡骨道尽人间事，未及瑶池新死枝",
+                            
+                                "余处幽篁兮终不见天，路险难兮独后来",
+                            
+                                "表独立兮山之上，云容容兮而在下",
+                            
+                                "杳冥冥兮羌昼晦，东风飘兮神灵雨",
+                            
                         ],
                         startDelay: 300,
-                        typeSpeed: 100,
+                        typeSpeed: 80,
                         loop: true,
-                        backSpeed: 50,
-                        showCursor: true
+                        backSpeed: 40,
+                        showCursor: false
                     });
                 </script>
                 
@@ -385,30 +384,15 @@
 </div>
 
 
-    <script>
-    //这里修改了banner图的生成逻辑为，每次刷新都会重新生成一张banner图片
-    if(1 != 2 ){var chance=  1 ;}else{var chance =  3 / (3  + 0 );}
-            var chose = Math.random();
-        if(parseFloat(chose) < parseFloat(chance)){
-            var type = ".jpg)";
-            var ImgNumber = Math.floor(Math.random()* 3);
-        }else{
-            var type = ".png)";
-            var  ImgNumber = Math.floor(Math.random()*0 );
-         }
-        backgroundUrl = '/imageLight/';
-        document.getElementsByTagName("body")[0].style.backgroundImage = 'url('+backgroundUrl +ImgNumber + type;
-    </script>
-
 
 
 <script>
     //这里修改了banner图的生成逻辑为，每次刷新都会重新生成一张banner图片
-    if(2 != 2 ){var chance=  2 ;}else{var chance =  10 / (10  + 0 );}
+    if(2 != 2 ){var chance=  2 ;}else{var chance =  3 / (3  + 0 );}
     var chose = Math.random();
     if(parseFloat(chose) < parseFloat(chance)){
         var type = ".jpg)";
-        var ImgNumber = Math.floor(Math.random()* 10);
+        var ImgNumber = Math.floor(Math.random()* 3);
     }else{
         var type = ".png)";
         var  ImgNumber = Math.floor(Math.random()*0 );
@@ -485,7 +469,7 @@
 
                                 </div>
                                 <div class="title">金扬植</div>
-                                <div class="career">Student</div>
+                                <div class="career">快乐最重要啦~~</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
     <a href="https://github.com/JinAoTian" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
@@ -561,7 +545,7 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up">杳冥冥兮羌昼晦，东风飘兮神灵雨</div>
+                <div class="introduction center-align" data-aos="fade-up">b站无名up/起点扑街写手/无情的bug制造机</div>
 
                 <style type="text/css">
     #posts-chart,
@@ -805,10 +789,10 @@
         <div class="col s12 m6 l6" data-aos="fade-up">
             <div class="skillbar">
                 <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 25%">
+                     style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 40%">
                     <span>视频后期</span>
                 </div>
-                <div class="skill-bar-percent">25%</div>
+                <div class="skill-bar-percent">40%</div>
             </div>
         </div>
         
@@ -816,10 +800,10 @@
         <div class="col s12 m6 l6" data-aos="fade-up">
             <div class="skillbar">
                 <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 15%">
+                     style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 30%">
                     <span>架空小说</span>
                 </div>
-                <div class="skill-bar-percent">15%</div>
+                <div class="skill-bar-percent">30%</div>
             </div>
         </div>
         
@@ -830,7 +814,7 @@
 
     
     <div class="other-skills chip-container" data-aos="zoom-in-up">
-        <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
+        <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;碎碎念</div>
         <div class="tag-chips center-align">
             
             
@@ -864,60 +848,6 @@
 
 
     <footer class="page-footer bg-color">
-    
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<style>
-    .aplayer .aplayer-lrc p {
-        
-        display: none;
-        
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px !important;
-    }
-
-    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
-        
-        font-size: 15px;
-        color: #42b983;
-    }
-
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
-</style>
-<div class="">
-    
-    <div class="row">
-        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
-                   type="playlist"
-                   id="503838841"
-                   fixed='true'
-                   autoplay='false'
-                   theme='#42b983'
-                   loop='all'
-                   order='random'
-                   preload='auto'
-                   volume='0.7'
-                   list-folded='true'
-        >
-        </meting-js>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="/libs/aplayer/Meting.min.js"></script>
-
     
 
     <div class="container row center-align"
@@ -1147,6 +1077,14 @@ $(function () {
     
 
     <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
     
 
      
@@ -1194,11 +1132,13 @@ $(function () {
     
 
     
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    
 
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/z16.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/z16.model.json"},"display":{"position":"right","width":200,"height":400},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script></body>
 
 </html>
