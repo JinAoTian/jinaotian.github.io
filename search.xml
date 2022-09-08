@@ -29,6 +29,33 @@
     </entry>
     
     
+    
+    <entry>
+      <title>起始页大事记</title>
+      <link href="/2022/09/06/qi-shi-ye-da-shi-ji/"/>
+      <url>/2022/09/06/qi-shi-ye-da-shi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="它正在成长"><a href="#它正在成长" class="headerlink" title="它正在成长"></a>它正在成长</h1><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;高中时接触到 青柠起始页 和 Itab ，美观、简洁、便利，但是都仍有些我不满意的地方。于是便萌生了自己也写一个起始页的想法。也去学了前端三件套，然而开始没多久，方向就歪了，歪到了网页爬虫-&gt;自动化小程序-&gt;unity  -&gt; ….。后来就在unity游戏开发的路上越跑越远了…<span class="github-emoji"><span>🤣</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f923.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p><p>&nbsp;&nbsp;&nbsp;&nbsp;但是种子既已种下，便会悄然生长，日常使用起始页的时候，总会想起那个计划，同时逐渐完善，添加越来越多的细节和新的想法，甚至还意淫过以此为切入点，逐步垄断互联网的一大流量入口，最后成长为互联网巨头…<span class="github-emoji"><span>🍑</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f351.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p><p>&nbsp;&nbsp;&nbsp;&nbsp;然而这只停留在幻想，毕竟我已经游戏开发这个领域投入了海量的精力，未来也打算从事这个行业，这个时候在抽出大量精力去搞前端，很可能两头都想抓，然后两头都抓不牢。</p><p>&nbsp;&nbsp;&nbsp;变化出现在大二上的选课，我发现仅选择游戏开发有关的专业选修，凑不够学分，那么剩下既然都要学，问什么不选自己感兴趣的呢？然后就选了网页前端开发技术，同时打算写一个起始页以应付期末大作业。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;然而重新拾起前端的后，我发现学起来远比我想象的上头，每天12小时持续coding 也没感觉到太大的压力。我想可能是因为前端所见即所得的特性，以及初学的快速上升期 释放了unity学习平台期压抑的热情吧(虽然最近unity因为插件的探索，隐隐有了焕发第二春的迹象)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;程序猿果然还是不应该用领域把自己限制住，领域本来就是人为定义的，况且我又不想做领域内的专家，做交叉领域的熟手就行了，做不到90分，努努力达到80分就够了，反正成就感是真的，快乐也是真的。而且它山之石可以攻玉，学下来发现内中逻辑很多都是共通的，编程的内功是不变的…（懒的写了)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;浮生若梦，为欢几何？但行前路，无问东西。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;目前还是有信心将这个起始页长久写下去的，希望未来依旧如此吧。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2022年9月8日</p><h2 id="2022年"><a href="#2022年" class="headerlink" title="2022年"></a>2022年</h2><h3 id="9月"><a href="#9月" class="headerlink" title="9月"></a>9月</h3><h4 id="9-1"><a href="#9-1" class="headerlink" title="9.1"></a>9.1</h4><p>创建基础框架</p><p>添加背景图，时间，搜索框…</p><p>添加看板娘，nest特效…</p><p>….</p><h4 id="9-2"><a href="#9-2" class="headerlink" title="9.2"></a>9.2</h4><p>添加一言功能</p><p>添加简易的键盘监测</p><p>添加搜索框的模糊搜索</p><p>添加基础的图标</p><h4 id="9-6"><a href="#9-6" class="headerlink" title="9.6"></a>9.6</h4><p>布局改用flex布局</p><p>简易适配移动端</p><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 大事记 </tag>
+            
+            <tag> 试做起始页 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>

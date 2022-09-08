@@ -6,7 +6,7 @@
   <link href="https://jinaotian.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinaotian.github.io/"/>
-  <updated>2022-09-08T06:16:35.195Z</updated>
+  <updated>2022-09-08T06:44:06.088Z</updated>
   <id>https://jinaotian.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://jinaotian.github.io/2022/09/06/bo-ke-da-shi-ji/"/>
     <id>https://jinaotian.github.io/2022/09/06/bo-ke-da-shi-ji/</id>
     <published>2022-09-06T12:46:10.000Z</published>
-    <updated>2022-09-08T06:16:35.195Z</updated>
+    <updated>2022-09-08T06:44:06.088Z</updated>
     
     
       
@@ -40,6 +40,33 @@
     <category term="大事记" scheme="https://jinaotian.github.io/tags/%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
     
     <category term="博客" scheme="https://jinaotian.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>起始页大事记</title>
+    <link href="https://jinaotian.github.io/2022/09/06/qi-shi-ye-da-shi-ji/"/>
+    <id>https://jinaotian.github.io/2022/09/06/qi-shi-ye-da-shi-ji/</id>
+    <published>2022-09-06T12:46:10.000Z</published>
+    <updated>2022-09-08T07:55:02.651Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;它正在成长&quot;&gt;&lt;a href=&quot;#它正在成长&quot; class=&quot;headerlink&quot; title=&quot;它正在成长&quot;&gt;&lt;/a&gt;它正在成长&lt;/h1&gt;&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="记录" scheme="https://jinaotian.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="大事记" scheme="https://jinaotian.github.io/tags/%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
+    
+    <category term="试做起始页" scheme="https://jinaotian.github.io/tags/%E8%AF%95%E5%81%9A%E8%B5%B7%E5%A7%8B%E9%A1%B5/"/>
     
   </entry>
   
