@@ -6,7 +6,7 @@
   <link href="https://jinaotian.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinaotian.github.io/"/>
-  <updated>2022-09-08T06:44:06.088Z</updated>
+  <updated>2022-09-08T10:12:11.908Z</updated>
   <id>https://jinaotian.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Font Awesome学习记录</title>
+    <link href="https://jinaotian.github.io/2022/09/06/font-awesome/"/>
+    <id>https://jinaotian.github.io/2022/09/06/font-awesome/</id>
+    <published>2022-09-06T12:46:10.000Z</published>
+    <updated>2022-09-08T10:12:11.908Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://jinaotian.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="CSS" scheme="https://jinaotian.github.io/tags/CSS/"/>
+    
+    <category term="工具" scheme="https://jinaotian.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="图标" scheme="https://jinaotian.github.io/tags/%E5%9B%BE%E6%A0%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>博客大事记</title>
     <link href="https://jinaotian.github.io/2022/09/06/bo-ke-da-shi-ji/"/>
     <id>https://jinaotian.github.io/2022/09/06/bo-ke-da-shi-ji/</id>
     <published>2022-09-06T12:46:10.000Z</published>
-    <updated>2022-09-08T06:44:06.088Z</updated>
+    <updated>2022-09-08T10:13:33.686Z</updated>
     
     
       
@@ -48,7 +77,7 @@
     <link href="https://jinaotian.github.io/2022/09/06/qi-shi-ye-da-shi-ji/"/>
     <id>https://jinaotian.github.io/2022/09/06/qi-shi-ye-da-shi-ji/</id>
     <published>2022-09-06T12:46:10.000Z</published>
-    <updated>2022-09-08T08:35:42.715Z</updated>
+    <updated>2022-09-08T10:13:42.699Z</updated>
     
     
       
@@ -66,36 +95,7 @@
     
     <category term="大事记" scheme="https://jinaotian.github.io/tags/%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
     
-    <category term="试做起始页" scheme="https://jinaotian.github.io/tags/%E8%AF%95%E5%81%9A%E8%B5%B7%E5%A7%8B%E9%A1%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Font Awesome学习记录</title>
-    <link href="https://jinaotian.github.io/2022/09/06/font-awesome/"/>
-    <id>https://jinaotian.github.io/2022/09/06/font-awesome/</id>
-    <published>2022-09-06T12:46:10.000Z</published>
-    <updated>2022-09-08T09:02:51.882Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="前端" scheme="https://jinaotian.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-    <category term="CSS" scheme="https://jinaotian.github.io/tags/CSS/"/>
-    
-    <category term="工具" scheme="https://jinaotian.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-    <category term="图标" scheme="https://jinaotian.github.io/tags/%E5%9B%BE%E6%A0%87/"/>
+    <category term="试作起始页" scheme="https://jinaotian.github.io/tags/%E8%AF%95%E4%BD%9C%E8%B5%B7%E5%A7%8B%E9%A1%B5/"/>
     
   </entry>
   

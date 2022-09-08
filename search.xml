@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Font Awesome学习记录</title>
+      <link href="/2022/09/06/font-awesome/"/>
+      <url>/2022/09/06/font-awesome/</url>
+      
+        <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.runoob.com/font-awesome/fontawesome-tutorial.html">Font Awesome 图标 | 菜鸟教程 (runoob.com)</a></p><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>Font Awesome 字体为您提供可缩放矢量图标,它可以被定制大小、颜色、阴影以及任何可以用CSS的样式。</p><p>可以说是个很常用，日常图标添加库了，后续可以考虑给起始页添加一套。</p><p>能够被自由定制这一点真的可以吹爆</p><h2 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h2><p>国内</p><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>国外</p><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>添加后通过在class = “fa “+ 所需要的图标名就可以使用啦</p><p>全图标查询：<a href="https://font-awesome.cn/icons/4.7.0/">Font Awesome 4.7.0 版本全部图标大全 - Font Awesome中文网 (font-awesome.cn)</a></p><p>注意使用的版本</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"><link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CSS </tag>
+            
+            <tag> 工具 </tag>
+            
+            <tag> 图标 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客大事记</title>
       <link href="/2022/09/06/bo-ke-da-shi-ji/"/>
       <url>/2022/09/06/bo-ke-da-shi-ji/</url>
@@ -49,36 +78,7 @@
             
             <tag> 大事记 </tag>
             
-            <tag> 试做起始页 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Font Awesome学习记录</title>
-      <link href="/2022/09/06/font-awesome/"/>
-      <url>/2022/09/06/font-awesome/</url>
-      
-        <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.runoob.com/font-awesome/fontawesome-tutorial.html">Font Awesome 图标 | 菜鸟教程 (runoob.com)</a></p><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>Font Awesome 字体为您提供可缩放矢量图标,它可以被定制大小、颜色、阴影以及任何可以用CSS的样式。</p><p>可以说是个很常用，日常图标添加库了，后续可以考虑给起始页添加一套。</p><p>能够被自由定制这一点真的可以吹爆</p><h2 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h2><p>国内</p><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>国外</p><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>添加后通过在class = “fa “+ 所需要的图标名就可以使用啦</p><p>全图标查询：<a href="https://font-awesome.cn/icons/4.7.0/">Font Awesome 4.7.0 版本全部图标大全 - Font Awesome中文网 (font-awesome.cn)</a></p><p>注意使用的版本</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"><link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> CSS </tag>
-            
-            <tag> 工具 </tag>
-            
-            <tag> 图标 </tag>
+            <tag> 试作起始页 </tag>
             
         </tags>
       
