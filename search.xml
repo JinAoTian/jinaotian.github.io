@@ -20,13 +20,11 @@
       
         <tags>
             
-            <tag> 工具 </tag>
-            
-            <tag> 图标 </tag>
-            
             <tag> 动作 </tag>
             
             <tag> 模型 </tag>
+            
+            <tag> 工具 </tag>
             
             <tag> 音效 </tag>
             
@@ -34,36 +32,9 @@
             
             <tag> 前端 </tag>
             
-            <tag> 壁纸 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Font Awesome学习记录</title>
-      <link href="/2022/09/06/font-awesome/"/>
-      <url>/2022/09/06/font-awesome/</url>
-      
-        <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.runoob.com/font-awesome/fontawesome-tutorial.html">Font Awesome 图标 | 菜鸟教程 (runoob.com)</a></p><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>Font Awesome 字体为您提供可缩放矢量图标,它可以被定制大小、颜色、阴影以及任何可以用CSS的样式。</p><p>可以说是个很常用，日常图标添加库了，后续可以考虑给起始页添加一套。</p><p>能够被自由定制这一点真的可以吹爆</p><h2 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h2><p>国内</p><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>国外</p><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>添加后通过在class = “fa “+ 所需要的图标名就可以使用啦</p><p>全图标查询：<a href="https://font-awesome.cn/icons/4.7.0/">Font Awesome 4.7.0 版本全部图标大全 - Font Awesome中文网 (font-awesome.cn)</a></p><p>注意使用的版本</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"><link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> CSS </tag>
-            
-            <tag> 工具 </tag>
-            
             <tag> 图标 </tag>
+            
+            <tag> 壁纸 </tag>
             
         </tags>
       
@@ -99,11 +70,11 @@
     
     
     <entry>
-      <title>起始页大事记</title>
+      <title>起始页大事记EP1</title>
       <link href="/2022/09/06/qi-shi-ye-da-shi-ji/"/>
       <url>/2022/09/06/qi-shi-ye-da-shi-ji/</url>
       
-        <content type="html"><![CDATA[<h1 id="它正在成长"><a href="#它正在成长" class="headerlink" title="它正在成长"></a>它正在成长</h1><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;一个业余兴趣的产物，希望能坚持下去吧…</p><p>&nbsp;&nbsp;&nbsp;&nbsp;感觉还是做游戏有意思。。。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;</p><h2 id="2022年"><a href="#2022年" class="headerlink" title="2022年"></a>2022年</h2><h3 id="9月"><a href="#9月" class="headerlink" title="9月"></a>9月</h3><h4 id="9-1"><a href="#9-1" class="headerlink" title="9.1"></a>9.1</h4><p>创建基础框架</p><p>添加背景图，时间，搜索框…</p><p>添加看板娘，nest特效…</p><p>….</p><h4 id="9-2"><a href="#9-2" class="headerlink" title="9.2"></a>9.2</h4><p>添加一言功能</p><p>添加简易的键盘监测</p><p>添加搜索框的模糊搜索</p><p>添加基础的图标</p><h4 id="9-6"><a href="#9-6" class="headerlink" title="9.6"></a>9.6</h4><p>布局改用flex布局</p><p>简易适配移动端</p><h4 id="9-13-v0-2"><a href="#9-13-v0-2" class="headerlink" title="9.13 v0.2"></a>9.13 v0.2</h4><p>添加boostrap</p><p>改写图标的生成逻辑</p><p>图标模块改用grid模式</p><p>增加了简易的添加快捷路径功能</p><h4 id="9-14"><a href="#9-14" class="headerlink" title="9.14"></a>9.14</h4><p>升级booststrap</p><p>添加fontawsome</p><p>修改部分图标</p><p>快捷路径进一步优化</p><h4 id="9-15"><a href="#9-15" class="headerlink" title="9.15"></a>9.15</h4><p>开始尝试转化为vue架构</p><h4 id="9-19"><a href="#9-19" class="headerlink" title="9.19"></a>9.19</h4><p>增加简单的读取功能</p><h3 id="9-20"><a href="#9-20" class="headerlink" title="9.20"></a>9.20</h3><p>增加了简易的nodeJS后端</p><p>增加了用户链接保存功能</p><h3 id="9-22"><a href="#9-22" class="headerlink" title="9.22"></a>9.22</h3><p>优化存储的数据结构</p><p>增加图标的删除和新增功能</p><p>PS：啊啊啊啊，要学的东西好多啊，抽不出多少时间来写这个</p><p>更重要的是，后续的发展已经可以逐渐看到瓶颈，要突破的话又有很多东西要学，烦躁。</p><h3 id="9-26"><a href="#9-26" class="headerlink" title="9.26"></a>9.26</h3><p>添加简易侧边栏</p><p>优化图标区域的排列显示</p><p>进一步升级用户的数据库</p><p>优化了生成图标的代码（至少看起来更优雅了=-=）</p><p>改写一部分函数变量的命名（可读性up）</p><p>后端性能大优化(之前陷入思维定式了捏)</p><p>修补编辑图标时为空时产生的bug</p><p>分页效果！(切换的动画也可以排上日程了)</p><h3 id="9-27"><a href="#9-27" class="headerlink" title="9.27"></a>9.27</h3><p>添加“添加分组”的按钮</p><p>优化网页加载的生命周期</p><p>上传到github</p><h3 id="9-29"><a href="#9-29" class="headerlink" title="9.29"></a>9.29</h3><p>优化侧边栏显示</p><p>改善“添加分组”按钮</p><p>优化事件监听系统</p><p>解决覆盖问题</p><p>添加删除分组的功能</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="mvp已完成"><a href="#mvp已完成" class="headerlink" title="mvp已完成"></a>mvp已完成</h1><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;一个业余兴趣的产物，希望能坚持下去吧…</p><p>&nbsp;&nbsp;&nbsp;&nbsp;感觉还是做游戏有意思。。。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;</p><h2 id="2022年"><a href="#2022年" class="headerlink" title="2022年"></a>2022年</h2><h3 id="9月"><a href="#9月" class="headerlink" title="9月"></a>9月</h3><h4 id="9-1"><a href="#9-1" class="headerlink" title="9.1"></a>9.1</h4><p>创建基础框架</p><p>添加背景图，时间，搜索框…</p><p>添加看板娘，nest特效…</p><p>….</p><h4 id="9-2"><a href="#9-2" class="headerlink" title="9.2"></a>9.2</h4><p>添加一言功能</p><p>添加简易的键盘监测</p><p>添加搜索框的模糊搜索</p><p>添加基础的图标</p><h4 id="9-6"><a href="#9-6" class="headerlink" title="9.6"></a>9.6</h4><p>布局改用flex布局</p><p>简易适配移动端</p><h4 id="9-13-v0-2"><a href="#9-13-v0-2" class="headerlink" title="9.13 v0.2"></a>9.13 v0.2</h4><p>添加boostrap</p><p>改写图标的生成逻辑</p><p>图标模块改用grid模式</p><p>增加了简易的添加快捷路径功能</p><h4 id="9-14"><a href="#9-14" class="headerlink" title="9.14"></a>9.14</h4><p>升级booststrap</p><p>添加fontawsome</p><p>修改部分图标</p><p>快捷路径进一步优化</p><h4 id="9-15"><a href="#9-15" class="headerlink" title="9.15"></a>9.15</h4><p>开始尝试转化为vue架构</p><h4 id="9-19"><a href="#9-19" class="headerlink" title="9.19"></a>9.19</h4><p>增加简单的读取功能</p><h4 id="9-20"><a href="#9-20" class="headerlink" title="9.20"></a>9.20</h4><p>增加了简易的nodeJS后端</p><p>增加了用户链接保存功能</p><h4 id="9-22"><a href="#9-22" class="headerlink" title="9.22"></a>9.22</h4><p>优化存储的数据结构</p><p>增加图标的删除和新增功能</p><p>PS：啊啊啊啊，要学的东西好多啊，抽不出多少时间来写这个</p><p>更重要的是，后续的发展已经可以逐渐看到瓶颈，要突破的话又有很多东西要学，烦躁。</p><h4 id="9-26"><a href="#9-26" class="headerlink" title="9.26"></a>9.26</h4><p>添加简易侧边栏</p><p>优化图标区域的排列显示</p><p>进一步升级用户的数据库</p><p>优化了生成图标的代码（至少看起来更优雅了=-=）</p><p>改写一部分函数变量的命名（可读性up）</p><p>后端性能大优化(之前陷入思维定式了捏)</p><p>修补编辑图标时为空时产生的bug</p><p>分页效果！(切换的动画也可以排上日程了)</p><h4 id="9-27"><a href="#9-27" class="headerlink" title="9.27"></a>9.27</h4><p>添加“添加分组”的按钮</p><p>优化网页加载的生命周期</p><p>上传到github</p><h4 id="9-29"><a href="#9-29" class="headerlink" title="9.29"></a>9.29</h4><p>优化侧边栏显示</p><p>改善“添加分组”按钮</p><p>优化事件监听系统</p><p>解决覆盖问题</p><p>添加删除分组的功能</p><h3 id="10月"><a href="#10月" class="headerlink" title="10月"></a>10月</h3><h4 id="10-9"><a href="#10-9" class="headerlink" title="10.9"></a>10.9</h4><p>摸了摸了</p><p>后端寻址解耦</p><p>优化搜索框体验</p><h3 id="告一段落，以及新征程"><a href="#告一段落，以及新征程" class="headerlink" title="告一段落，以及新征程"></a>告一段落，以及新征程</h3><p>已经可以明确感受到瓶颈了。</p><p>现有的框架很难支撑起我后续的设计</p><p>(看板，提醒…)</p><p>虽说还有很多可以优化的地方。</p><p>然而质的突破是很蓝的啦。</p><p>而且其他的项目在召唤，已经有点力不从心了</p><p>以后熟悉了新框架之后，在来重构和拓展吧。</p><p>后面的时间，先搞unity,图形学和An….吧</p><p>当然为了应付前端作业，后面获取还会更新一段吧。</p><p>嗯，在写一份策划书来展望一下吧。</p>]]></content>
       
       
       <categories>

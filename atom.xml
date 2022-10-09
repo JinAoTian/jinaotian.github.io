@@ -37,13 +37,11 @@
     <category term="资源帖" scheme="https://jinaotian.github.io/categories/%E8%B5%84%E6%BA%90%E5%B8%96/"/>
     
     
-    <category term="工具" scheme="https://jinaotian.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-    <category term="图标" scheme="https://jinaotian.github.io/tags/%E5%9B%BE%E6%A0%87/"/>
-    
     <category term="动作" scheme="https://jinaotian.github.io/tags/%E5%8A%A8%E4%BD%9C/"/>
     
     <category term="模型" scheme="https://jinaotian.github.io/tags/%E6%A8%A1%E5%9E%8B/"/>
+    
+    <category term="工具" scheme="https://jinaotian.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
     <category term="音效" scheme="https://jinaotian.github.io/tags/%E9%9F%B3%E6%95%88/"/>
     
@@ -51,36 +49,9 @@
     
     <category term="前端" scheme="https://jinaotian.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="壁纸" scheme="https://jinaotian.github.io/tags/%E5%A3%81%E7%BA%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Font Awesome学习记录</title>
-    <link href="https://jinaotian.github.io/2022/09/06/font-awesome/"/>
-    <id>https://jinaotian.github.io/2022/09/06/font-awesome/</id>
-    <published>2022-09-06T12:46:10.000Z</published>
-    <updated>2022-09-09T07:45:07.551Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="前端" scheme="https://jinaotian.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-    <category term="CSS" scheme="https://jinaotian.github.io/tags/CSS/"/>
-    
-    <category term="工具" scheme="https://jinaotian.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
     <category term="图标" scheme="https://jinaotian.github.io/tags/%E5%9B%BE%E6%A0%87/"/>
+    
+    <category term="壁纸" scheme="https://jinaotian.github.io/tags/%E5%A3%81%E7%BA%B8/"/>
     
   </entry>
   
@@ -112,18 +83,18 @@
   </entry>
   
   <entry>
-    <title>起始页大事记</title>
+    <title>起始页大事记EP1</title>
     <link href="https://jinaotian.github.io/2022/09/06/qi-shi-ye-da-shi-ji/"/>
     <id>https://jinaotian.github.io/2022/09/06/qi-shi-ye-da-shi-ji/</id>
     <published>2022-09-06T12:46:10.000Z</published>
-    <updated>2022-09-29T12:34:43.314Z</updated>
+    <updated>2022-10-09T12:34:26.145Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;它正在成长&quot;&gt;&lt;a href=&quot;#它正在成长&quot; class=&quot;headerlink&quot; title=&quot;它正在成长&quot;&gt;&lt;/a&gt;它正在成长&lt;/h1&gt;&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;mvp已完成&quot;&gt;&lt;a href=&quot;#mvp已完成&quot; class=&quot;headerlink&quot; title=&quot;mvp已完成&quot;&gt;&lt;/a&gt;mvp已完成&lt;/h1&gt;&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot;</summary>
         
       
     
