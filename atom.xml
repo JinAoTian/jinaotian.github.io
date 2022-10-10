@@ -6,7 +6,7 @@
   <link href="https://jinaotian.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinaotian.github.io/"/>
-  <updated>2022-09-28T14:37:28.151Z</updated>
+  <updated>2022-10-10T03:24:27.000Z</updated>
   <id>https://jinaotian.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>起始页策划案</title>
+    <link href="https://jinaotian.github.io/2022/10/10/qi-shi-ye-ce-hua-an/"/>
+    <id>https://jinaotian.github.io/2022/10/10/qi-shi-ye-ce-hua-an/</id>
+    <published>2022-10-10T01:04:10.000Z</published>
+    <updated>2022-10-10T03:24:27.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="策划案" scheme="https://jinaotian.github.io/categories/%E7%AD%96%E5%88%92%E6%A1%88/"/>
+    
+    
+    <category term="前端" scheme="https://jinaotian.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="策划案" scheme="https://jinaotian.github.io/tags/%E7%AD%96%E5%88%92%E6%A1%88/"/>
+    
+    <category term="起始页" scheme="https://jinaotian.github.io/tags/%E8%B5%B7%E5%A7%8B%E9%A1%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>导航帖-素材</title>
@@ -87,7 +116,7 @@
     <link href="https://jinaotian.github.io/2022/09/06/qi-shi-ye-da-shi-ji/"/>
     <id>https://jinaotian.github.io/2022/09/06/qi-shi-ye-da-shi-ji/</id>
     <published>2022-09-06T12:46:10.000Z</published>
-    <updated>2022-10-09T12:34:26.145Z</updated>
+    <updated>2022-10-10T01:10:01.843Z</updated>
     
     
       
@@ -105,7 +134,7 @@
     
     <category term="大事记" scheme="https://jinaotian.github.io/tags/%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
     
-    <category term="试作起始页" scheme="https://jinaotian.github.io/tags/%E8%AF%95%E4%BD%9C%E8%B5%B7%E5%A7%8B%E9%A1%B5/"/>
+    <category term="起始页" scheme="https://jinaotian.github.io/tags/%E8%B5%B7%E5%A7%8B%E9%A1%B5/"/>
     
   </entry>
   

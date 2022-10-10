@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>起始页策划案</title>
+      <link href="/2022/10/10/qi-shi-ye-ce-hua-an/"/>
+      <url>/2022/10/10/qi-shi-ye-ce-hua-an/</url>
+      
+        <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;近年来，网络上涌现出了一批主打简洁的起始页，诸如青柠起始页，itab等等等。</p><p>可以说解决我网上寻找资料的一大痛点，但仍有许多不足（贪婪）。如青柠起始页的快捷方式连分页都不支持，itab添加快捷方式要先点三次鼠标才能打开界面（恼）。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;而且感觉它们仅仅实现好看、简洁，但距离好用、高效还有一定差距。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;不过很能理解，毕竟是不求回报的个人开发者，精力有限，而且开发之后，维护的开销还会变大。是我，我也懒的开发。经历过试作起始页mvp的开发，我深刻感受到开发工作量之巨。如果要做到itab那种地步，我起码还要花半年多，几百小时的开发（有些技术栈不是很熟悉，估计的可能不太准确。）。而且各种适配，调参等等想想就头疼。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;更何况itab仅仅是我设想中的起步阶段，后面功能的工作量想想就让人头秃，不是一个人能做到的。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;现在课多，项目多，其他方向在召唤，目前是不太可能花大时间在这个上面，姑且写下来意淫一下，顺便锻炼自己的文本策划能力吧。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;当然，光靠文字是肯定无法说清楚的….我是不是时候学下Axure了？</p><h2 id="起源版本"><a href="#起源版本" class="headerlink" title="起源版本"></a>起源版本</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;策划案的框架，我打算是实现难度，按照版本，模块。实现功能的逐步累加和更新。</p><p>这一版打算是起始页的一些基础，易实现的功能。因为后面是有多种主题，和用户自主设计布局。所以并不会太过强调位置布局。</p><h3 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h3><p><img src="/2022/10/10/qi-shi-ye-ce-hua-an/Users\jyz\AppData\Roaming\marktext\images\2022-10-10-10-35-26-image.png"></p><p><img src="/2022/10/10/qi-shi-ye-ce-hua-an/Users\jyz\AppData\Roaming\marktext\images\2022-10-10-10-36-01-image.png"></p><p>可以参考itab的设计。</p><h4 id="搜索框模块"><a href="#搜索框模块" class="headerlink" title="搜索框模块"></a>搜索框模块</h4><p>可以参考搜索引擎的常用设计，键盘上下键可以选择….等等设计。</p><p>不过仍有特别的点：</p><h5 id="内容显示："><a href="#内容显示：" class="headerlink" title="内容显示："></a>内容显示：</h5><h6 id="文本内容"><a href="#文本内容" class="headerlink" title="文本内容"></a>文本内容</h6><p>&nbsp;&nbsp;&nbsp;&nbsp;若是文字：</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下拉表的第一项，显示该文字翻译界面的跳转。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;若智能识别为网址：</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下拉表的第一项，显示跳转到该网址。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;若包含捷径的名称（暂时只知道KMP算法，来连续匹配，后续也许能更智能）：</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下拉表的第二项，跳转该捷径。（暂定上拉表，也可以在下来表继续添加）。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;若包含分组名称：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下拉表的第二项，将图标页切换到该分组。（若与捷径冲突则第三项）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;若标签….(后续版本)</p><h6 id="键盘监控"><a href="#键盘监控" class="headerlink" title="键盘监控"></a>键盘监控</h6><p> 如alt+enter 快速打开跳转翻译（或网址）。</p><p>alt + 数字快速 快速跳转下来表的第几项</p><h6 id="自定义"><a href="#自定义" class="headerlink" title="自定义"></a>自定义</h6><p>快捷键的自定义</p><p>下拉表显示的个数的定义</p><p>显示样式的定义</p><p>下来表智能推荐的定义</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 策划案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+            <tag> 策划案 </tag>
+            
+            <tag> 起始页 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>导航帖-素材</title>
       <link href="/2022/09/07/dao-hang-tie-su-cai/"/>
       <url>/2022/09/07/dao-hang-tie-su-cai/</url>
@@ -88,7 +117,7 @@
             
             <tag> 大事记 </tag>
             
-            <tag> 试作起始页 </tag>
+            <tag> 起始页 </tag>
             
         </tags>
       
