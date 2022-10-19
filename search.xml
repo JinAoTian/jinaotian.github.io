@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>novelAI体验报告</title>
+      <link href="/2022/10/19/novelai-ti-yan-bao-gao/"/>
+      <url>/2022/10/19/novelai-ti-yan-bao-gao/</url>
+      
+        <content type="html"><![CDATA[<h1 id="安得显存16g，大庇天下术士俱欢颜。"><a href="#安得显存16g，大庇天下术士俱欢颜。" class="headerlink" title="安得显存16g，大庇天下术士俱欢颜。"></a>安得显存16g，大庇天下术士俱欢颜。</h1><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><p>对于小白和懒人来说，网上有直接整合好的程序，以及快速的咒语入门。</p><p><a href="https://www.bilibili.com/video/BV1EV4y1L7dX/?spm_id_from=333.337.search-card.all.click">【AI绘画】再次进化！novelai真官网版本解压即用 无需下载！这次1分钟内不用学也能会用_哔哩哔哩_bilibili</a></p><p><a href="https://www.zhihu.com/question/558019952">如何评价AI绘画网站NovelAI？ - 知乎 (zhihu.com)</a></p><h2 id="成果"><a href="#成果" class="headerlink" title="成果"></a>成果</h2><p>如博客的背景图,以及后面的博客大多会用AI生成（笑）。</p><p>对于4g的显存，分辨率拉到768*512 差不多就是极限了（愁）。</p><h2 id="观察"><a href="#观察" class="headerlink" title="观察"></a>观察</h2><p>通过中断可以观察到，图的生成过程。</p><p>也就是生成色块，厚涂叠加柔化。然后通过迭代，逐渐细化。</p><p>然后AI是真的不会画手，经常会出现邪典。</p><p>咒语的话，贴的链接比我讲的好多了。</p><p>不过有些有趣的细节可以讲一下：</p><p>【1】自动的色彩贴合，比如说，如果你设定了眼睛颜色是红色，那么她的衣饰和背景就会偏向于红色的色调，而衣服的颜色则会是 黑、白，或者贴合头发的颜色。</p><p>【2】智能添加，如果设定两个人物的话，重叠的词条会自动分配给两个人物（如 yellow hair ， white hair），那么两个人物就会一个黄发，一个白发。</p><p>【3】小瑕疵，嘴巴的表示很单一，多是一条线，而额头和眉毛与头发的分界会莫名的白。</p><p>【4】服饰可以很大胆，内衣也可以（滑稽）</p><p>总之还有很多有趣的细节，一时想不全，懒。</p><p>还是推荐自己去体验一下吧。</p><h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><p>感觉代替不了美术，却能成为美术的高效率工具。</p><p>找灵感，或者生成图以后，手动修改，会是后来的主流应用吧。</p><p>起点的人物图可以考虑用这个来搞（笑）。</p><p>….啊，懒得写了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 深度学习 </tag>
+            
+            <tag> 人工智能 </tag>
+            
+            <tag> 美术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>起始页策划案</title>
       <link href="/2022/10/10/qi-shi-ye-ce-hua-an/"/>
       <url>/2022/10/10/qi-shi-ye-ce-hua-an/</url>
