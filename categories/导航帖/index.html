@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="404, 如叶随风">
+    <meta name="keywords" content="分类: 导航帖, 如叶随风">
     <meta name="description" content="知易行难">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>404 | 如叶随风</title>
+    <title>分类: 导航帖 | 如叶随风</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -333,41 +333,213 @@
 
 </header>
 
-    <style type="text/css">
-    /* don't remove. */
-    .about-cover {
-        height: 90.2vh;
-    }
-</style>
-<div class="bg-cover pd-header about-cover">
+    <div class="bg-cover pd-header about-cover">
     <div class="container">
-        <div class="row">
-            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-                <div class="brand">
-                    <div class="title center-align">
-                        404 Sorry 您找的页面不存在！
-                    </div>
-                    <div class="title center-align">
-                        试试右上角的<span style="color:blue;font-weight:bold">搜索</span>功能？
-                    </div>
-                    <div class="title center-align">
-                        <a href="/" target="_blank">返回首页</a>
-                    </div>
-                    <div class="description center-align">
-                        糟糕，我炸掉了， 下次再来吧~ :(
-                    </div>
-                </div>
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align homeTitle">
+                
+                如叶随风
+                
+            </div>
+
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="/libs/typed/typed.js"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: [ 
+                        
+                                "浮生若梦，为欢几何？",
+                            
+                                "凡骨道尽人间事，未及瑶池新死枝",
+                            
+                                "自青丝如瀑至发结霜落",
+                            
+                                "杳冥冥兮羌昼晦，东风飘兮神灵雨",
+                            
+                                "拨弄时光的指针，遨游命运的阴影",
+                            
+                        ],
+                        startDelay: 300,
+                        typeSpeed: 80,
+                        loop: true,
+                        backSpeed: 40,
+                        showCursor: false
+                    });
+                </script>
+                
             </div>
         </div>
     </div>
 </div>
 
 
-    <script>
-        // 每天切换 banner 图.  Switch banner image every day.
-        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-    </script>
+
+
+<script>
+    //这里修改了banner图的生成逻辑为，每次刷新都会重新生成一张banner图片
+    if(2 != 2 ){var chance=  2 ;}else{var chance =  3 / (3  + 0 );}
+    var chose = Math.random();
+    if(parseFloat(chose) < parseFloat(chance)){
+        var type = ".jpg)";
+        var ImgNumber = Math.floor(Math.random()* 3);
+    }else{
+        var type = ".png)";
+        var  ImgNumber = Math.floor(Math.random()*0 );
+    }
+    bannerUrl = '/imageBg/';
+    console.log(ImgNumber);
+    $('.bg-cover').css('background-image', 'url('+bannerUrl +ImgNumber + type );
+</script>
+
+
+
+
+
+    </div>
+</div>
+
+<main class="content">
+
+    
+
+<div id="category-cloud" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+            </div>
+            <div class="tag-chips">
+                
+                
+                
+                <a href="/categories/%E8%AE%B0%E5%BD%95/" title="记录: 4">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F9EBEA;">记录
+                        <span class="tag-length">4</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%AF%BC%E8%88%AA%E5%B8%96/" title="导航帖: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #F5EEF8;">导航帖
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E6%B8%B8%E6%88%8F/" title="游戏: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">游戏
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E7%AD%96%E5%88%92%E6%A1%88/" title="策划案: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #E8F8F5;">策划案
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2022/09/07/dao-hang-tie-su-cai/">
+                        <div class="card-image tag-image">
+                            
+                            <img src="/imageLight/10.jpg" class="responsive-img" alt="导航帖-素材">
+                            
+                            <span class="card-title">导航帖-素材</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                积累的美术音乐素材导航
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%AF%BC%E8%88%AA%E5%B8%96/" class="post-category">
+                                    导航帖
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E5%8A%A8%E4%BD%9C/">
+                            <span class="chip bg-color">动作</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%A8%A1%E5%9E%8B/">
+                            <span class="chip bg-color">模型</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%B7%A5%E5%85%B7/">
+                            <span class="chip bg-color">工具</span>
+                        </a>
+                        
+                        <a href="/tags/%E9%9F%B3%E6%95%88/">
+                            <span class="chip bg-color">音效</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/">
+                            <span class="chip bg-color">游戏开发</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                            <span class="chip bg-color">前端</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%9B%BE%E6%A0%87/">
+                            <span class="chip bg-color">图标</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%A3%81%E7%BA%B8/">
+                            <span class="chip bg-color">壁纸</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </article>
+</main>
+
 
 
 
