@@ -273,35 +273,6 @@
     
     
     <entry>
-      <title>少年游更新日志</title>
-      <link href="/2022/09/06/shao-nian-you-geng-xin-ri-zhi/"/>
-      <url>/2022/09/06/shao-nian-you-geng-xin-ri-zhi/</url>
-      
-        <content type="html"><![CDATA[<h3 id="V0-1-alpha"><a href="#V0-1-alpha" class="headerlink" title="V0.1 - alpha"></a>V0.1 - alpha</h3><h4 id="2-1"><a href="#2-1" class="headerlink" title="2.1:"></a>2.1:</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;完成确立、下载与整理了所需要的基础模组。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;测试了模组之间的基础兼容性。</p><h4 id="2-2："><a href="#2-2：" class="headerlink" title="2.2："></a>2.2：</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;搭建基础mod包</p><p>&nbsp;&nbsp;&nbsp;&nbsp;调整的HUD和JEI等按键</p><p>&nbsp;&nbsp;&nbsp;&nbsp;添加主章节【入世】</p><p>&nbsp;&nbsp;&nbsp;&nbsp;添加附章节【全知即全能?】</p><p>&nbsp;&nbsp;&nbsp;&nbsp;进一步魔改MCA</p><h4 id="2-3"><a href="#2-3" class="headerlink" title="2.3:"></a>2.3:</h4><p>&nbsp;&nbsp;&nbsp;  MCA进一步填充内容</p><p>&nbsp;&nbsp;&nbsp;&nbsp;添加MCA译本</p><p>&nbsp;&nbsp;&nbsp;&nbsp;做任务线的时候发现MCA12.2版本有bug，小孩子的实体有问题。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;哼哼哼啊~~~~（痛苦面具）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;考虑直接跳到1.16.5吧，1.12.2再见了您嘞。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 记录 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 游戏制作 </tag>
-            
-            <tag> mod </tag>
-            
-            <tag> 更新日志 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>博客开发更新日志</title>
       <link href="/2022/09/06/bo-ke-kai-fa-geng-xin-ri-zhi/"/>
       <url>/2022/09/06/bo-ke-kai-fa-geng-xin-ri-zhi/</url>
