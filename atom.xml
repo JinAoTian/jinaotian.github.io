@@ -6,7 +6,7 @@
   <link href="https://jinaotian.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinaotian.github.io/"/>
-  <updated>2023-03-28T14:38:36.716Z</updated>
+  <updated>2023-04-07T11:50:58.552Z</updated>
   <id>https://jinaotian.github.io/</id>
   
   <author>
@@ -17,11 +17,129 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>卡牌大陆装备牌tag表</title>
-    <link href="https://jinaotian.github.io/2023/03/26/qia-pai-da-lu-tag-biao/"/>
-    <id>https://jinaotian.github.io/2023/03/26/qia-pai-da-lu-tag-biao/</id>
+    <title>卡牌大陆事件表</title>
+    <link href="https://jinaotian.github.io/2023/04/07/qia-pai-da-lu-shi-jian-biao/"/>
+    <id>https://jinaotian.github.io/2023/04/07/qia-pai-da-lu-shi-jian-biao/</id>
+    <published>2023-04-07T12:16:10.000Z</published>
+    <updated>2023-04-07T11:50:58.552Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="记录" scheme="https://jinaotian.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="游戏制作" scheme="https://jinaotian.github.io/tags/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/"/>
+    
+    <category term="表单" scheme="https://jinaotian.github.io/tags/%E8%A1%A8%E5%8D%95/"/>
+    
+    <category term="卡牌大陆" scheme="https://jinaotian.github.io/tags/%E5%8D%A1%E7%89%8C%E5%A4%A7%E9%99%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>卡牌大陆条件表</title>
+    <link href="https://jinaotian.github.io/2023/04/07/qia-pai-da-lu-tiao-jian-biao/"/>
+    <id>https://jinaotian.github.io/2023/04/07/qia-pai-da-lu-tiao-jian-biao/</id>
+    <published>2023-04-07T12:16:10.000Z</published>
+    <updated>2023-04-07T11:50:22.616Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&quot;通用&quot;&gt;&lt;a href=&quot;#通用&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="记录" scheme="https://jinaotian.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="游戏制作" scheme="https://jinaotian.github.io/tags/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/"/>
+    
+    <category term="表单" scheme="https://jinaotian.github.io/tags/%E8%A1%A8%E5%8D%95/"/>
+    
+    <category term="卡牌大陆" scheme="https://jinaotian.github.io/tags/%E5%8D%A1%E7%89%8C%E5%A4%A7%E9%99%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>卡牌大陆接口表</title>
+    <link href="https://jinaotian.github.io/2023/04/07/qia-pai-da-lu-jie-kou-biao/"/>
+    <id>https://jinaotian.github.io/2023/04/07/qia-pai-da-lu-jie-kou-biao/</id>
+    <published>2023-04-07T12:16:10.000Z</published>
+    <updated>2023-04-07T11:51:05.764Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;h2 id=&quot;条件判断&quot;&gt;&lt;a href=&quot;#条件判断&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="记录" scheme="https://jinaotian.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="游戏制作" scheme="https://jinaotian.github.io/tags/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/"/>
+    
+    <category term="表单" scheme="https://jinaotian.github.io/tags/%E8%A1%A8%E5%8D%95/"/>
+    
+    <category term="卡牌大陆" scheme="https://jinaotian.github.io/tags/%E5%8D%A1%E7%89%8C%E5%A4%A7%E9%99%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>卡牌大陆标签表</title>
+    <link href="https://jinaotian.github.io/2023/03/26/qia-pai-da-lu-biao-qian-biao/"/>
+    <id>https://jinaotian.github.io/2023/03/26/qia-pai-da-lu-biao-qian-biao/</id>
     <published>2023-03-26T12:16:10.000Z</published>
-    <updated>2023-03-28T14:38:36.716Z</updated>
+    <updated>2023-04-07T11:51:32.657Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;h3 id=&quot;大类-建议写第一个，避免忘了&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="记录" scheme="https://jinaotian.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="游戏制作" scheme="https://jinaotian.github.io/tags/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/"/>
+    
+    <category term="表单" scheme="https://jinaotian.github.io/tags/%E8%A1%A8%E5%8D%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>卡牌大陆组件表</title>
+    <link href="https://jinaotian.github.io/2023/03/26/qia-pai-da-lu-zu-jian-biao/"/>
+    <id>https://jinaotian.github.io/2023/03/26/qia-pai-da-lu-zu-jian-biao/</id>
+    <published>2023-03-26T12:16:10.000Z</published>
+    <updated>2023-04-07T11:48:28.274Z</updated>
     
     
       
@@ -41,6 +159,8 @@
     
     <category term="表单" scheme="https://jinaotian.github.io/tags/%E8%A1%A8%E5%8D%95/"/>
     
+    <category term="卡牌大陆" scheme="https://jinaotian.github.io/tags/%E5%8D%A1%E7%89%8C%E5%A4%A7%E9%99%86/"/>
+    
   </entry>
   
   <entry>
@@ -48,14 +168,14 @@
     <link href="https://jinaotian.github.io/2023/03/20/qia-pai-da-lu-kai-fa-ri-zhi/"/>
     <id>https://jinaotian.github.io/2023/03/20/qia-pai-da-lu-kai-fa-ri-zhi/</id>
     <published>2023-03-20T03:00:00.000Z</published>
-    <updated>2023-03-29T07:27:56.857Z</updated>
+    <updated>2023-04-08T08:46:27.447Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;2023&quot;&gt;&lt;a href=&quot;#2023&quot; class=&quot;headerlink&quot; title=&quot;2023&quot;&gt;&lt;/a&gt;2023&lt;/h3&gt;&lt;h4 id=&quot;V0-1&quot;&gt;&lt;a href=&quot;#V0-1&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;2023&quot;&gt;&lt;a href=&quot;#2023&quot; class=&quot;headerlink&quot; title=&quot;2023&quot;&gt;&lt;/a&gt;2023&lt;/h2&gt;&lt;h3 id=&quot;V0-1&quot;&gt;&lt;a href=&quot;#V0-1&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -68,6 +188,8 @@
     
     <category term="更新日志" scheme="https://jinaotian.github.io/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
     
+    <category term="卡牌大陆" scheme="https://jinaotian.github.io/tags/%E5%8D%A1%E7%89%8C%E5%A4%A7%E9%99%86/"/>
+    
   </entry>
   
   <entry>
@@ -75,7 +197,7 @@
     <link href="https://jinaotian.github.io/2023/03/19/qia-pai-da-lu-ce-hua-an/"/>
     <id>https://jinaotian.github.io/2023/03/19/qia-pai-da-lu-ce-hua-an/</id>
     <published>2023-03-19T07:00:00.000Z</published>
-    <updated>2023-03-26T14:18:50.245Z</updated>
+    <updated>2023-04-07T11:32:37.683Z</updated>
     
     
       
@@ -92,7 +214,7 @@
     <category term="策划案" scheme="https://jinaotian.github.io/categories/%E7%AD%96%E5%88%92%E6%A1%88/"/>
     
     
-    <category term="游戏开发" scheme="https://jinaotian.github.io/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/"/>
+    <category term="游戏制作" scheme="https://jinaotian.github.io/tags/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/"/>
     
     <category term="策划案" scheme="https://jinaotian.github.io/tags/%E7%AD%96%E5%88%92%E6%A1%88/"/>
     
@@ -192,7 +314,7 @@
     <link href="https://jinaotian.github.io/2022/12/31/2023-nian-du-yu-le-bao-gao/"/>
     <id>https://jinaotian.github.io/2022/12/31/2023-nian-du-yu-le-bao-gao/</id>
     <published>2022-12-31T03:00:00.000Z</published>
-    <updated>2023-03-20T03:16:11.260Z</updated>
+    <updated>2023-04-08T15:03:13.682Z</updated>
     
     
       
@@ -221,7 +343,7 @@
     <link href="https://jinaotian.github.io/2022/12/31/2023-nian-du-xiang-mu-zong-jie/"/>
     <id>https://jinaotian.github.io/2022/12/31/2023-nian-du-xiang-mu-zong-jie/</id>
     <published>2022-12-31T03:00:00.000Z</published>
-    <updated>2023-03-15T15:36:15.715Z</updated>
+    <updated>2023-04-08T14:22:16.398Z</updated>
     
     
       
@@ -336,7 +458,7 @@
     <link href="https://jinaotian.github.io/2022/09/07/dao-hang-tie-su-cai/"/>
     <id>https://jinaotian.github.io/2022/09/07/dao-hang-tie-su-cai/</id>
     <published>2022-09-07T12:46:10.000Z</published>
-    <updated>2022-10-25T01:59:02.060Z</updated>
+    <updated>2023-04-03T13:40:20.334Z</updated>
     
     
       
@@ -352,6 +474,8 @@
     <category term="导航帖" scheme="https://jinaotian.github.io/categories/%E5%AF%BC%E8%88%AA%E5%B8%96/"/>
     
     
+    <category term="游戏制作" scheme="https://jinaotian.github.io/tags/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/"/>
+    
     <category term="动作" scheme="https://jinaotian.github.io/tags/%E5%8A%A8%E4%BD%9C/"/>
     
     <category term="模型" scheme="https://jinaotian.github.io/tags/%E6%A8%A1%E5%9E%8B/"/>
@@ -359,8 +483,6 @@
     <category term="工具" scheme="https://jinaotian.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
     <category term="音效" scheme="https://jinaotian.github.io/tags/%E9%9F%B3%E6%95%88/"/>
-    
-    <category term="游戏开发" scheme="https://jinaotian.github.io/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/"/>
     
     <category term="前端" scheme="https://jinaotian.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
