@@ -52,9 +52,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="如叶随风" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 6.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="如叶随风" type="application/atom+xml">
 </head>
 
 
@@ -406,14 +406,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-04-08
+                    2023-04-18
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4.5k
+                    5.5k
                 </div>
                 
 
@@ -609,6 +609,52 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;余甚至是起副作用的，囧。</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4]解决了人物砍树循环的问题</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5]小调了一下配方的结构</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.9</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1]创建并载入事件类结构</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2]开始思考事件和条件的判断逻辑是放在卡牌管理器中呢，还是卡牌信息。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前来看不考虑开销，放在卡牌管理器中，更方便一点。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3]完成卡牌结束事件的处理</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4]大改了一下卡牌类的触发事件</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5]卡牌基础属性添加了属性触发界面。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6]跑通了属性触发的流程。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7]完善了装备中的卡牌删除的情况</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8]建立了卡牌回收机制。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9]在原本属性表的基础上添加上限的设定</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.10</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1]给游戏添加了简单的键盘调速</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2]哎呦，忽然发现实例化的话止实例直接附加的对象，有点小搞，还好发现的即时。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3]总算tm的调好了,顺便修了些小bug。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.11</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [1]简单设计了一下卡包组件的数据结构。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2]补充了之前缺失的卡牌模型</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3]添加简单的弹出动画。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4]感觉组件类跟卡牌类基本重叠，甚至没必要新定义个数据结构，多个16字节的冗余完</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全没什么大问题，毕竟冗余都这么多了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.12 </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1]实现卡牌组件的安装，同时优化卡牌信息的赋值流程</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2]完善了基础包的设计</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3]给卡牌模板添加了属性是否显示的可选项</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4]确定了基础的40来个事件接口，等有空实现一下。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5]开始制作基础包的图片素材，今天先把自然资源这一类的搞定</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6]确定内容包的基础制作流程</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7]将触发事件从卡牌中抽离出来，单独成一个表。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.13</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1]给配方的needhuman添加一个on属性，方便检测。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2]完成基础包食物卡片、材料卡片的制作</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3]扩充材料卡片</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.14</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1]想到一个简易的方法,简单兼容多装备卡，以后有需要再实现吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2]基础包的装备牌也做的差不多了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.15 </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1]填充了基础包的内容</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2]开始开摆</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.17</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1]开摆结束,重新开始.这就是1月的第一个疲软期吗？</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2]今天和明天搞定基础包剩余的素材,后天填充卡牌配置表.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4.18</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1]完成了基础包的图片资产制作。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2]完成自然资源和卡牌的设置,先把卡包的弹出事件给解决吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3]把卡包的事件重新肘了一遍，流程写了一半,脑袋有些转不动了，明天再写。</p>
 
                 
             </div>
@@ -1269,7 +1315,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">37.5k</span>
+                        class="white-color">38.5k</span>
             
             
             
