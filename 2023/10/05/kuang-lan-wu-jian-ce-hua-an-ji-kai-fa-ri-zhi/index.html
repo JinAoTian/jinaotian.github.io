@@ -1,0 +1,1720 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="狂澜无间策划案及开发日志, 如叶随风">
+    <meta name="description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+前言&amp;nbsp;&amp;nbsp;这个学期有人机交互技术和三维游戏设计，打算做一个VR版的游戏。
+&amp;nbsp; 开始想做skyrunner和rail rush的VR版本，然后做着发现不是很契合VR">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>狂澜无间策划案及开发日志 | 如叶随风</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+
+
+    <!-- bg-cover style     -->
+
+
+
+<link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+<link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+<link rel="stylesheet" type="text/css" href="/css/matery.css">
+<link rel="stylesheet" type="text/css" href="/css/my.css">
+<link rel="stylesheet" type="text/css" href="/css/dark.css" media="none" onload="if(media!='all')media='all'">
+
+
+
+
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+    <link rel="stylesheet" href="/css/post.css">
+
+
+
+
+    
+        <link rel="stylesheet" type="text/css" href="/css/reward.css">
+    
+
+
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="如叶随风" type="application/atom+xml">
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">如叶随风</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>主页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>时间轴</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;" class="waves-effect waves-light" onclick="switchNightMode()" title="深色/浅色模式" >
+      <i id="sum-moon-icon" class="fas fa-sun" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">如叶随风</div>
+        <div class="logo-desc">
+            
+            知易行难
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			主页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			时间轴
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>themes
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="themes" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/blogImg/10.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">狂澜无间策划案及开发日志</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E6%B8%B8%E6%88%8F/">
+                                <span class="chip bg-color">游戏</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/">
+                                <span class="chip bg-color">游戏制作</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/">
+                                <span class="chip bg-color">更新日志</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%AD%96%E5%88%92%E6%A1%88/">
+                                <span class="chip bg-color">策划案</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E7%AD%96%E5%88%92%E6%A1%88/" class="post-category">
+                                策划案
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2023-10-05
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2023-11-06
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    7.6k
+                </div>
+                
+
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.min.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>&nbsp;&nbsp;这个学期有人机交互技术和三维游戏设计，打算做一个VR版的游戏。</p>
+<p>&nbsp; 开始想做skyrunner和rail rush的VR版本，然后做着发现不是很契合VR的交互方式。</p>
+<p>&nbsp;&nbsp;随后玩了燥热VR和直到倒下之后感觉非常有意思，打算做一个类似的刀剑游戏。</p>
+<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><p>&nbsp;模型主要就用polygon的樱花国、地牢、超凡怪物等包。</p>
+<h2 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h2><h4 id="大循环"><a href="#大循环" class="headerlink" title="大循环"></a>大循环</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;演示的demo打算采取肉鸽的箱庭战斗玩法。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;在有限的场景内杀死一波又一波的敌人，在每一轮结束之后都有休整和升级的时间，随后进行下一轮战斗。</p>
+<h6 id="战斗系统"><a href="#战斗系统" class="headerlink" title="战斗系统"></a>战斗系统</h6><h4 id="进攻"><a href="#进攻" class="headerlink" title="进攻"></a>进攻</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】手段包括近战、投掷、远程、魔法、召唤。这次重点先实现前两个</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】每次有效打击均需消耗体力值、魔力值等。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】打击伤害由武器类型、人物数值、单双手握持等决定。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3+】后续再考虑挥击力度，打击部分等因素。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】可以后续加入处决和暗杀要素。</p>
+<h4 id="防御"><a href="#防御" class="headerlink" title="防御"></a>防御</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】手段包括闪避、格挡、护盾。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】闪避即现实中避开砍来的攻击，不消化体力值。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2+】考虑左滚轮方向加按键式闪避，但视角问题得想一下。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】格挡则是通过盾牌，刀剑等弹开对方的攻击，消耗体力值，但能创造破绽，削弱敌人韧性。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3+】考虑添加完美格挡，但是判定该怎么解决呢？</p>
+<h4 id="武器"><a href="#武器" class="headerlink" title="武器"></a>武器</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】抓握剑握住武器，肩键+手势使用武器的特殊能力（如果有)。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】武器有耐久，格挡、进攻等行为会消耗武器耐久，耐久归零会破碎（特效类塞尔达）</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】武器分单双手也可以两者都有，但是会影响战技和数值。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】战斗中可以夺过敌人的武器使用，有数值判定</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】武器还可以通过商店购买、法术召唤等方式产生</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5+】等搞定姿势识别之后可考虑在两腰、双肩、两胸（待定）、双臂（待定）设置空4/6/8个装备栏以抽取装备。</p>
+<h4 id="道具"><a href="#道具" class="headerlink" title="道具"></a>道具</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】初期考虑用右键滚轮按下后的圆扇形选单搞定</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】后期可以考虑aylx的方法。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】以下是初期的几个道具设想</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】传送苦无/传送箭/..，传送到射中的地方。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】各类回复药水</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】各类投掷物（参考法环）</p>
+<h4 id="主动技能"><a href="#主动技能" class="headerlink" title="主动技能"></a>主动技能</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】占用X\Y\A\B 以及空手时的肩键和抓握键、以及左滚轮按下（冲刺）。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】考虑右手A/B键一个可以做成魔法选单，可以是魔法的施放键。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不过这样不就所有魔法都用右手了吗，是否左手也占用一个键？</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】后续可加入不同形态的变身，每个形态的能力都不一样。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】以下是设想的几个能力</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】子弹时间：按下X键，减慢时间，将持续消耗体力值</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】各类冲刺:左滚轮按下+方向键</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】念力:空手时对准远处的可操控物体，按住抓握键则可以将物体拉向自己。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【4】标记(传送/燃烧等等):手按在敌人/建筑表面时，按下抓握键放标记，随后可通过远程抓握键触发。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【5】火药跳跃，指向远处的火焰按下跳跃键可直接传送过去。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 【6】定身术，可定住敌人几秒。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【7】各种花里胡哨的魔法</p>
+<h4 id="被动技能"><a href="#被动技能" class="headerlink" title="被动技能"></a>被动技能</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】以下是设想的一些被动技能。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】应激传送：可以参考诡秘的纸人替身或只狼的雾羽</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】夺魂系列: 击杀怪物回复生命、法力等，或获得几秒子弹时间等。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】各类数值强化，如强化削韧性等。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【4】各类免疫</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【5】白刃取：在子弹时间中夺取对方武器并反手攻击其弱点，可打一套处决。</p>
+<h3 id="成长系统"><a href="#成长系统" class="headerlink" title="成长系统:"></a>成长系统:</h3><h4 id="升级成长"><a href="#升级成长" class="headerlink" title="升级成长"></a>升级成长</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;杀死怪物可获得经验，特效可参考将怪物破碎时的光粒吸入体内。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;每次升级时可选择一次成长，成长选项可参考地牢探索者，几项数值中选择。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;以下为预设的数值类型，可参考环</p>
+<p>&nbsp;&nbsp;&nbsp;【1】体力：血量【2】专注：魔法【3】精力：耐力值</p>
+<p>&nbsp;&nbsp;&nbsp;【4】筋骨：防御力【5】力量：物理伤害【6】智慧：魔法伤害</p>
+<p>&nbsp;&nbsp;&nbsp;【7】敏捷:移动速度【8】感知:时停速度</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;每次升级会随机选中其中3/4项呈现，由玩家选一个升级。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;每个属性提升3级之后会有一个强化分支选择，如以下</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【体力】</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】吸星术：杀死敌人恢复生命</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】渴血呼吸: 受到伤害可在一定时间通过对敌人攻击来回复失去的血量（血缘中的反击回血)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】生生不息：随时间缓缓回血</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【4】澎湃气血：提高生命上限</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【5】血蓝转换·血：消耗魔力值后恢复一定生命值</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【6】血之护盾:血满之后溢出的生命值回形成一层短暂的护盾。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【7】受伤后提升少量生命上限</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【专注】</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】夺魂:杀死敌人恢复魔力</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】理之调息：随时间缓缓恢复魔力</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】血蓝转换·蓝：失去生命值时恢复一定魔力</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【4】挥剑护体：蓝满之后溢出的魔力值会在身后形成辉剑向前方射出</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【精力】</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】回阳调息:杀死敌人恢复精力</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】精妙操控:降低精力消耗</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】肺活增强:加快精力回复</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【4】强健体魄:提高精力上限</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【5】肾上腺素：受伤后加快精力恢复一段时间。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【6】消耗精力提升一定精力上限</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【筋骨】</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】钢筋铁骨：增强防御力</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】荆棘:反伤</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】回弹：返回削韧性</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【4】打熬:每次受伤，防御少量增加</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【5】铜墙铁壁:暂定移动受到攻击后反伤、削韧（参考：黑神话）</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【力量】</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】增加攻击力</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】增强削韧</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】空手强化：空手蓄力，能获得极大削韧的一击</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【4】消耗精力后，提升少量攻击力</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【5】双手强化，单手强化等..</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【智慧】</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;类同上</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【蓄力贯穿】</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【敏捷】</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 雷同上</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【冲刺强化】等</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 【感知】</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】受伤时停</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】击杀时停</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】减少时停开销</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【4】</p>
+<h4 id="交易"><a href="#交易" class="headerlink" title="交易"></a>交易</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;【货币】货币和材料，通过与场景交互和击杀怪物获得。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【货郎】每轮战斗结束后可在修整商店购买道具，以及一些常见魔法、武器等。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【隐藏商店】藏在地图的某处，可兑换稀有道具</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;后续可以考虑拆分出铁匠铺、法术老师等不同npc。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;在这些可以学习魔法，获得道具和独特武器，通过各类方式提升上述数值。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;这里要提一下设想的魔药系统。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【魔药】</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;获得魔药配方、通过材料调配魔药。魔药可提供数值加成和独特技能。</p>
+<h2 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h2><h3 id="玩法实现"><a href="#玩法实现" class="headerlink" title="玩法实现"></a>玩法实现</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对于要实现的demo来说要实现以下几点:</p>
+<p>&nbsp;&nbsp;【1】场景内与现实同步的视角与位移</p>
+<p>&nbsp;&nbsp;【2】手柄变作手，同时实现靠近物体能自动吸附抓握</p>
+<p>&nbsp;&nbsp;【2+】投掷挥砍的速度模拟。</p>
+<p>&nbsp; 【3】场景的子弹时间效果</p>
+<p>&nbsp;&nbsp;【3+】随人物运动而变化的子弹时间效果</p>
+<p>&nbsp;&nbsp;【4】简易的敌人AI</p>
+<p>&nbsp;&nbsp;【4+】受击动作</p>
+<p>&nbsp; 【5】物品破碎效果.</p>
+<p>&nbsp;&nbsp;【6+】景深与抗锯齿</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;经过这几天测试，技术选型结束。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;打算采用pico的SDK和unity 内置的unityXR</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;因为(1)steamVR 的openXR与unityXR不是很兼容，输入系统要重新桥接</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（2）学校的网络不支持我无线连接电脑，不如直接内置在一体机里面。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;不过一体机的性能堪忧啊，不知道我的优化能不能跟上。</p>
+<h3 id="目前改进方向"><a href="#目前改进方向" class="headerlink" title="目前改进方向"></a>目前改进方向</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】key点添加碰撞体后，通过 auto hand 的插件 实现更真实的手部交互</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】通过识别collider挂载的子对象名称，获取受到打击的部位，已实现不同部位不同的打击效果。(初步完成)</p>
+<p>&nbsp;&nbsp;&nbsp;【3】购买pico的腿环，加入脚步映射，使腿部行动更加自然。（思考：如何解决摇杆移动的动作问题，纯平移吗？=v=）</p>
+<p>&nbsp;&nbsp;【4】用Scriptobject给物体做属性容器，保存其质量、扔出力度、角速度、物理材质，受击反馈等，以差异化其表现，不过需要大量调参，暂且搁置。</p>
+<h3 id="10-5"><a href="#10-5" class="headerlink" title="10.5"></a>10.5</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;[1]将主要模型包导入，并测试了主场景的显示。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;发现:帧数较低 &amp; 远处场景锯齿化严重。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[2]搭建了一个简单的场景用于后续实验</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[3]用两个小方块简单代替了手，修复了重复生成的bug，不过具体原理未知</p>
+<h3 id="10-6"><a href="#10-6" class="headerlink" title="10.6"></a>10.6</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;[1]将小方块替换成了手，并加入了抓握的动作。不过阴影容易穿帮，后续找机会处理一下。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[2]实现通过摇杆控制左右移动和左右转向，以及高度检测，调好的输入系统就很舒服。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[3]实现了物体的抓取和抛出，用封装好的toolkit做脚本小子太舒服了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[4]在思考一下双手抓取该怎么实现。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[5]震动功能简单实现了，但是代码触发不太成功，需要debug一下。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[6]没debug出来，不过测试发现sendHap能用，那只要换种通信方式就可以了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[7]明天测试一下按键映射和时停效果就可以正式开始gameplay模块的编写了</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[8]找到unity破碎插件rayfire，有空尝试一下。</p>
+<h3 id="10-7"><a href="#10-7" class="headerlink" title="10.7"></a>10.7</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;[1]将按键映射搞定了，第三方设备是这样的，需要自己做设备映射，同时按下，松开等情况也需要自己从物理状态中抽象出来。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[2]暂停时间测试成功，人物实际运动不受影响。但是摇杆运动会收到影响，同时物体移动一卡一卡的，丢出物品时物品也会直接卡在那。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[3]改变刚体插值方式之后，情况有所缓解，但还是速度快了还是一卡一卡的。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[4]碰撞的物理模拟不是很理想，但是存在，可以用于破碎检测。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[5]实验了丢出力的调整，情况挺理想，可以通过不同参数，实现不同投掷物的手感。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[6]接下来就试着实现你动时间才动的效果。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[7]unity XR toolkit有现成的隧穿组件，Mark一下，以后用到的时候可以用。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[8]用polygon地下城的预览场景剪了张地图，方便之后调试。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;[9]换了种插值方式之后，暂停时间后的场景变的异常丝滑，不过问题是这个短时间扔出的物体的加速度会非常的大，当然如果采取superhot这种运动方式就没什么问题了。</p>
+<h3 id="10-8"><a href="#10-8" class="headerlink" title="10.8"></a>10.8</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】今天赶路不怎么想写代码</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】将之前的场景另起一个scene装起来方便之后玩。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】改变武器的movement type 使交互更加合理</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】之前的YouTube 有切物体和全身IK的教程，有空看一下。</p>
+<h3 id="10-9"><a href="#10-9" class="headerlink" title="10.9"></a>10.9</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】最终想了想，不打算采取spuerhot的那种时停机制，而是偏向于魂系（只狼）的战斗风格，所以时停作为一种能力存在即可。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】接下来要先解决玩法框架，再进行游戏的设计，这部分我打算放在玩法中进行阐述。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】把战斗系统写的差不多了，升级系统留着明天上课慢慢写吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】实现了双手抓握，不过手感有些奇怪。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】将movement type改了回去，穿模就穿模吧，另一种移动类型容易颤动，在慢放中也不符合交互风格。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【6】室友早早就睡了，敲不了代码，干脆下楼来继续写策划案，现在楼下装修的真的好，以后小说和诡秘策划案也可以考虑到楼下来写，当然，最好还是调下生物钟。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【7】外部循环的基本框架也敲定了，明天把里面的细节补充一下。</p>
+<h3 id="10-10"><a href="#10-10" class="headerlink" title="10.10"></a>10.10</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】搞一手IK，现在这么智能了吗？！</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】有点傻逼但也能用了，别要求太高啊，混蛋。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】还行，但是穿模很严重，而后能捕捉的点太少了，match不上现实的动作，不如改用碰撞盒。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】接下来先解决人物受击检测的问题。</p>
+<p>&nbsp;&nbsp;&nbsp; 【5】先用boxcollider借用character controller的高度凑合一下吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【6】看了pico的体感追踪，挺吸引人的，后续开发的完成度高的话可以考虑接入这个加入腿技。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【7】今晚先搞到这，搜索下相关插件和教程，明天搞物理检测攻击。</p>
+<h3 id="10-11"><a href="#10-11" class="headerlink" title="10.11"></a>10.11</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】昨晚没睡好，今天没什么精神</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】将RPG动作包和polygon的超凡生物给导了进去，打算通过IK先实现怪物始终转头看下玩家，再实现各类受击动作。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】思考要不要把动作包的animator熟悉一下，还是自己从头写一个。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】实现了头部的视角跟随，版本跟教材没对上，很多参数要自己去试试，可以想象后面开发有很多需要调参的地方，考虑要不要找一个</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】搞了一手finalIK，这位更是无脑，不过人物高度和臂展如何匹配现实该怎么办？这个比例又不是固定的，甚至要直接条mesh，难。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【6】调一手模型大小，至少不这么违和。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【7】把身高和臂展稍微留高点吧，这样兼容性强一些。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【8】明天把抓握动作搞定，今天直接开摆。</p>
+<h3 id="10-12"><a href="#10-12" class="headerlink" title="10.12"></a>10.12</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】搞定了抓握动作，隐藏弃用了之前的双手。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】看了几个final IK的教程，又老又稀里糊涂的，可能是个好程序，但绝对不是一个好的讲师。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】看到一些很不错的VR插件，但学习成本让我踌躇，考虑要不先这样凑合，以后需要升级时在考虑这些插件？</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】出现冲突，头不动了，考虑要不直接试试插件算了，实在是吸引人。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】彻底抛弃前天的不成熟IK，权且当做练习。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【6】双手的动作实现，现在添加手型碰撞体方便后面更真实抓握的实现。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【7】key的手有些走形，也懒得加圆柱体了，开摆。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【8】一坨，果然哪些效果都是通过高强度key点实现的，点打不好不如直接先内置的凑合一下。姑且算是留一个以后优化的地方吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【9】mark一个，以后可以同这套系统的IK点直接做手势动作。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【10】人物手好短啊，把模型大小重新调回去了。手臂粗就粗吧，手短穿模太影响体验了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【11】学到了碰撞矩阵的概念，或者说重温吧。现在有办法在人物身上塞入大大小小碰撞体了，明天开始尝试。</p>
+<h3 id="10-13"><a href="#10-13" class="headerlink" title="10.13"></a>10.13</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;今天课多，不想学习，摆一下。</p>
+<h3 id="10-14"><a href="#10-14" class="headerlink" title="10.14"></a>10.14</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;沉迷与东方夜雀食堂无法自拔，今天先简单完成角色碰撞体的设置。</p>
+<p>【1】碰撞体的设置基本完成，不过实际游戏中如何每个角色都要设置过去着实有些麻烦，找一下有没有基于骨骼的自动添加碰撞体。</p>
+<p>【2】网上找了一个skinned mesh collider 的插件，效果不错，不知道开销怎么样。下一步是如何监测所有子collider的碰撞。</p>
+<p>【3】新增改进方向一栏，记录目前已知大的改进点。</p>
+<h3 id="10-15"><a href="#10-15" class="headerlink" title="10.15"></a>10.15</h3><p>&nbsp;&nbsp;&nbsp;周末沉迷游戏，开摆一天</p>
+<h3 id="10-16"><a href="#10-16" class="headerlink" title="10.16"></a>10.16</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】身体躯干检测完成，考虑在双手受击时加入个受击特效?</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】用函数将双手的震动抽象出来，免得直面API；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】unityXR的震动时灵时不灵的，改用了Pico自带的API，能调的参数挺多，但是却没找到震动一次这样的API，还要自己去抽象出来。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】重新key了一下手的位置和抓取点，虽然不是很精确，但至少符合现实的抓握方法。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】接下来先去搞一下敌人身体不怎么动，目光始终注视着玩家的实现吧。</p>
+<h3 id="10-17"><a href="#10-17" class="headerlink" title="10.17"></a>10.17</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】用aim IK调注视效果还挺方便，不过要更真实的效果还是要慢慢调参</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】发现auto hand的抓握动画还是受timescale的影响的，后面找机会改吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】接下来先解决跟随贴人动画的实现，然后是攻击和受击动画吧。</p>
+<h3 id="10-18"><a href="#10-18" class="headerlink" title="10.18"></a>10.18</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】尝试使用 Emerald AI 3.0 作为前期简易AI的实现方案，行为树可以暂时放一放，把流程搭出来再说。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】乘着下载插件的时间，先把转场做了吧，先试一试体积雾的性能。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】理了一下资产，免得都放在一个目录内乱糟糟的。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】体积雾不了一点啊，这shader转编译的时间未免也太久了吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】修复了因为移动素材导致的一些寻址匹配失败问题。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【6】要开始备份起来了，免得一夜回到解放前。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【7】我擦，有快10个g了，之前的skyrunner都有20个g，哪来这么大的东西？</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【8】先打包再说，冗余就冗余吧，不缺这点空间。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【9】动画运动搞定了，就是死活检测不到人物，几个小时了，都不知道哪里有问题，恼。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【10】相互检测是可以做到的，就是不知道为什么检测不到玩家，只能看那个抽象教程了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【11】查了FQA，发现这个是常见问题，这个系统未免也太自闭了一点，不支持第三方碰撞体等一堆杂七杂八的东西，考虑直接弃用这个插件吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【12】搞了半天，等于是一晚上白干。upset。</p>
+<h3 id="10-19"><a href="#10-19" class="headerlink" title="10.19"></a>10.19</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】blaze AI 的文档看着头大，不如试着抢救一下。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】思考了一下，发现重新设一个character controller的子对象可以解决大部分问题。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】解决了上下坡时模型不跟着走的问题。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】调出来的攻击检测挺抽象的，不知道什么原因</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】解决了攻击检测的问题，抽象啊，教程给人的感觉是他只检测指定的layer，实际上却是检测全部，需要你自己去指定忽略哪些层，而不是指定检测哪些层。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【6】引入puppet master 实现受击IK反馈，这么有名的插件之前我竟然不知道，还是玩少了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【7】接下来就是繁复的调参时间。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【8】调了2个多小时，效果还不是很好，主要是每次编译都要花挺多时间的。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【9】算了，就到这里吧。明天把简易AI应用到这里面去，开始测试攻击与受击。</p>
+<h3 id="10-21"><a href="#10-21" class="headerlink" title="10.21"></a>10.21</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】调整了手部的layer，防止与手持的物体发生碰撞。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】进一步调整了puppet的表现，但要更好还需要逐步调骨骼、懒、以后再说</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】成功将Emerald AI应用到骷髅士兵中，后续要解决受击的通讯问题。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】调整了骷髅的动作速度与高度，应用了IK；</p>
+<h3 id="10-22"><a href="#10-22" class="headerlink" title="10.22"></a>10.22</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】打算搞一个puppet master的受击监测，再由其为独立敌人的AI通讯提供数据，在此之前，先看下puppet master和Emerald AI 有没有便捷的方法。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】没找到，直接用SendMessageUpwards和SendMessage搞定算了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】明天就UI和受击反馈的事情问下老师吧，现在搞定一下捡起物体时，改变物体tag的实现吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】新设了一个武器类，用于存储武器信息，考虑攻击结算时再跟全局变量进行计算。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】pico咋就没电了，调试不了一点。开摆，明天再说。</p>
+<h3 id="10-23"><a href="#10-23" class="headerlink" title="10.23"></a>10.23</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】受击动作还是没有什么太好的办法，现阶段干脆死了直接碎了算了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】Emerald AI说是可定制度高，实际上依托，连选择攻击动作和受击动作都做不到。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;不过也还好，仅仅作为攻击用的AI插件来说到也不错。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】尝试了一下puppet master的死亡效果，其受击反馈没做出来，不如尝试一下Emerald AI的。emmm，算下时间的话，受击动画先不做。把死亡和碎裂特效搞定。然后</p>
+<p>把升级系统和UI简单的搞一下，再把音乐和场景逻辑搞定，接着敌人死亡掉落武器的动画，然后就可以交差了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】加入rayfire之后尝试打包，时间上可以接受，接着尝试将其应用在敌人死亡时。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】emmm，效果不是很理想，打算明天试试Advanced Dissolve。</p>
+<h3 id="10-24"><a href="#10-24" class="headerlink" title="10.24"></a>10.24</h3><p> &nbsp;&nbsp;&nbsp;&nbsp;今天沉迷游戏，小摆一手</p>
+<h3 id="10-25"><a href="#10-25" class="headerlink" title="10.25"></a>10.25</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】打算用disolve FX和feel 插件简单满足一下画面表现。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】试用成功，但不知道该怎么移植到自身的材质上，他材质是占一整张的。而我lowpoly风格的材质往往只有一小部分部分被用到，复制属性的方法不怎么奏效，明天看看有什么新的方法没有。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】或许我应该先去把整个游戏的框架给搭出来，在花时间考虑画面表现的问题，先做出能交，后面的当做进阶，希望不是做完了之后就懒得它了。</p>
+<h3 id="10-26"><a href="#10-26" class="headerlink" title="10.26"></a>10.26</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】通过调整溶解曲线，初步解决了溶解特效的问题，解下来的问题是如何只作用于单个物体。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】又是折磨的 shader编译环节，犹豫到底要不要上这个特效了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】打算先测试一波运行表现，然后删除，等游戏的最后再考虑要不要加上去。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】玩了半天的场景加载和rayfire破碎，发现pico孱弱的性能读条时间有点长，直接先去把核心的游戏循环搞定了再说这些吧。</p>
+<h3 id="10-27"><a href="#10-27" class="headerlink" title="10.27"></a>10.27</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】今天写游戏综述，开摆一天。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】查牧场like游戏，直接沉迷于星露谷，下周一在继续写。</p>
+<h3 id="11-1"><a href="#11-1" class="headerlink" title="11.1"></a>11.1</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】坏了，沉迷的时间有点久了，让我愈发想开始搞我的命轮游戏了。今天开始接着搞狂澜，把基础的体验流程搞定再搞画面上的事情。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】简单搞定了波次的生成。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】简单配置了一下物体的悬浮。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】明天依次解决：声音的添加、投掷的优化、教程的开始。</p>
+<h3 id="11-2"><a href="#11-2" class="headerlink" title="11.2"></a>11.2</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】昨天说的前两项搞点，找声音着实花了我不少的时间。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】考虑要不要做一下攻击到目标后的手部受击反馈，不过这么搞通信起来挺麻烦的。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】先去把UI和教程先做了吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】教程解决，接下来把双持一下，单持两下的攻击安排上。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】伤害的传导也解决了，接下来就是如何找到是哪个手握住了东西。</p>
+<h3 id="11-3"><a href="#11-3" class="headerlink" title="11.3"></a>11.3</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】今天尝试添加UI，发现怎么搞怎么碍眼，而且不能直接贴在overplay上，直接显示也是个曲面，技术难度大，用声音等作为反馈吗？周一问下老师吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】明天的计划是添加更多的关卡，尝试设置带武器的怪物。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】考虑增加curve UI ，然后把血量和精力放到正下方，感觉这个位置有说法。</p>
+<h3 id="11-4"><a href="#11-4" class="headerlink" title="11.4"></a>11.4</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】curve UI 等问过老师了再说</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】给抓握武器加了通信，总算能知道每只手抓了什么东西了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】新的教程和教程关卡</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】emm，实现夺取武器之前，要不先把购物和升级给解决吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】今天不想再搞了，明天先搞个血条，再用VR UI 搞个简易的升级系统吧。购物我觉得可以在商人面前搞个选单？</p>
+<h3 id="11-5"><a href="#11-5" class="headerlink" title="11.5"></a>11.5</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】搞了半天，feel还是不能用。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】加了血量条，加入攻击判定和简易的游戏结束</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】想搞点弹反功能，但不知道怎么判定。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】考虑通过盾牌和时间限制来鼓励正面拼刀，而不是秦王绕柱。</p>
+<h3 id="11-6"><a href="#11-6" class="headerlink" title="11.6"></a>11.6</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;【1】试图用curve UI和光线交互实现升级系统，但交互一直实现不了，烦躁起来了，尤其是每次调试编译都需要花大量的时间，整个人都不好了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【2】实现不了升级系统的话，抢夺过程也不想搞了，就这样交了算了，基本功能都已经有了。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【3】MD，用方块抓握简单的凑合一下吧。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【4】给方块和交互手重新设置了一下layer，免得身体吧方块撞飞。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【5】将方块替换成了水晶，这样子看得舒服一点。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;【6】把简单 的升级系统给搞定了。</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">金扬植</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://jinaotian.github.io/2023/10/05/kuang-lan-wu-jian-ce-hua-an-ji-kai-fa-ri-zhi/">https://jinaotian.github.io/2023/10/05/kuang-lan-wu-jian-ce-hua-an-ji-kai-fa-ri-zhi/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">金扬植</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E6%B8%B8%E6%88%8F/">
+                                    <span class="chip bg-color">游戏</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/">
+                                    <span class="chip bg-color">游戏制作</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/">
+                                    <span class="chip bg-color">更新日志</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%AD%96%E5%88%92%E6%A1%88/">
+                                    <span class="chip bg-color">策划案</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">给博主来杯卡布奇诺(雾)</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'agSvbp4K8VPin6WcnHGSpl5x-gzGzoHsz',
+        appKey: 'wrcFfWQ83HeK2NAzk0jlFTD5',
+        serverURLs: 'https://agsvbp4k.lc-cn-n1-shared.com',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: '吐槽一下'
+    });
+</script>
+
+<!--酷Q推送-->
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2023/10/05/kuang-lan-wu-jian-ce-hua-an-ji-kai-fa-ri-zhi/">
+                    <div class="card-image">
+                        
+                        <img src="/blogImg/10.jpg" class="responsive-img" alt="狂澜无间策划案及开发日志">
+                        
+                        <span class="card-title">狂澜无间策划案及开发日志</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-05
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%AD%96%E5%88%92%E6%A1%88/" class="post-category">
+                                    策划案
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%B8%B8%E6%88%8F/">
+                        <span class="chip bg-color">游戏</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C/">
+                        <span class="chip bg-color">游戏制作</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/">
+                        <span class="chip bg-color">更新日志</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%AD%96%E5%88%92%E6%A1%88/">
+                        <span class="chip bg-color">策划案</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2023/08/17/ming-lun-gui-mi-ce-hua-an/">
+                    <div class="card-image">
+                        
+                        <img src="/imageLight/15.png" class="responsive-img" alt="命轮：诡秘策划案">
+                        
+                        <span class="card-title">命轮：诡秘策划案</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            一个游戏策划案
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-17
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%AD%96%E5%88%92%E6%A1%88/" class="post-category">
+                                    策划案
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%B8%B8%E6%88%8F/">
+                        <span class="chip bg-color">游戏</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%AD%96%E5%88%92%E6%A1%88/">
+                        <span class="chip bg-color">策划案</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+  <!-- 是否加载使用自带的 prismjs. -->
+  <script type="text/javascript" src="/libs/prism/prism.min.js"></script>
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2022-2023</span>
+            
+            <a href="/about" target="_blank">金扬植</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">60k</span>
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+                <span id="sitetime"> Loading ...</span>
+                <script>
+                    var calcSiteTime = function () {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = "2022";
+                        var startMonth = "9";
+                        var startDate = "5";
+                        var startHour = "0";
+                        var startMinute = "0";
+                        var startSecond = "0";
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth() + 1;
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+
+                        // 区分是否有年份.
+                        var language = 'zh-CN';
+                        if (startYear === String(todayYear)) {
+                            document.getElementById("year").innerHTML = todayYear;
+                            var daysTip = 'This site has been running for ' + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                daysTip = '本站已运行 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                daysTip = '本站已運行 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = daysTip;
+                        } else {
+                            document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                            var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and '
+                                + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
+                        }
+                    }
+
+                    calcSiteTime();
+                </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/JinAoTian" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:1689589851@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1689589851" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1689589851" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 白天和黑夜主题 -->
+<div class="stars-con">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>  
+</div>
+
+<script>
+    function switchNightMode() {
+        $('<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"></div></div>').appendTo($('body')),
+        setTimeout(function () {
+            $('body').hasClass('DarkMode') 
+            ? ($('body').removeClass('DarkMode'), localStorage.setItem('isDark', '0'), $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon')) 
+            : ($('body').addClass('DarkMode'), localStorage.setItem('isDark', '1'), $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')),
+            
+            setTimeout(function () {
+            $('.Cuteen_DarkSky').fadeOut(1e3, function () {
+                $(this).remove()
+            })
+            }, 2e3)
+        })
+    }
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    
+
+    
+
+    <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
+    
+
+     
+        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+        <script src="/libs/others/TencentCaptcha.js"></script>
+        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
+    
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+    <script type="text/javascript" color="0,0,0"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
+
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/z16.model.json"},"display":{"position":"right","width":200,"height":400},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script></body>
+
+</html>
